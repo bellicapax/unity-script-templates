@@ -28,6 +28,12 @@ using UnityEditor;
 [InitializeOnLoad]
 public class UnityScriptTemplates
 {
+    [MenuItem("Assets/Create/ScriptableObject", false, 81)]
+    private static void CreateScriptableObject()
+    {
+        UnityScriptFactory.CreateScriptAsset("ScriptableObject.txt");
+    }
+
     [MenuItem("Assets/Create/C#/POCO", false, 81)]
     private static void CreatePoco()
     {
@@ -68,11 +74,5 @@ public class UnityScriptTemplates
     private static void CreateCustomPropertyDrawer()
     {
         UnityScriptFactory.CreateScriptAsset("CustomPropertyDrawer.txt");
-    }
-
-    [MenuItem("Assets/Create/ScriptableObject", false, 83)]
-    private static void CreateScriptableObject()
-    {
-        UnityScriptFactory.CreateScriptAsset("ScriptableObject.txt");
     }
 }
