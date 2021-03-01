@@ -1,0 +1,20 @@
+﻿using UnityEngine;
+using UnityEditor;
+
+namespace Inspectors
+{
+    [CustomEditor(typeof())]
+    [CanEditMultipleObjects]
+    public class #SCRIPTNAME# : Editor
+    {
+        private void OnEnable()
+        {
+
+        }
+
+        public override void OnInspectorGUI()
+        {
+		
+        }
+    }
+}

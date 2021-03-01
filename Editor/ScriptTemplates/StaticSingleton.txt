@@ -1,0 +1,27 @@
+﻿using UnityEngine;
+
+
+public class #SCRIPTNAME#
+{
+	#region Singleton
+	private static readonly #SCRIPTNAME# _instance = new #SCRIPTNAME#();
+
+	// Explicit static constructor to tell C# compiler
+	// not to mark type as beforefieldinit
+	static #SCRIPTNAME#()
+	{
+	}
+
+	private #SCRIPTNAME#()
+	{
+	}
+
+	public static #SCRIPTNAME# Instance
+	{
+		get
+		{
+			return _instance;
+		}
+	}
+	#endregion
+}

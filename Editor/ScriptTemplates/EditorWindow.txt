@@ -1,0 +1,17 @@
+﻿using UnityEngine;
+using UnityEditor;
+
+public class #SCRIPTNAME# : EditorWindow
+{
+    [MenuItem("SkyVu/")]
+    public static void Init()
+    {
+        var window = GetWindow<#SCRIPTNAME#>();
+        window.Show();
+    }
+
+    private void OnGUI()
+    {
+
+    }
+}
