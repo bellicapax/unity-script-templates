@@ -1,0 +1,15 @@
+{
+    "name": "com.bellicapax.unity-script-templates",
+    "version": "1.0.0",
+    "displayName": "Common Script Templates",
+    "description": "Adds common C# and Unity specific script templates to the Create menu.",
+   "keywords": [
+      "script",
+      "templates"
+    ],
+    "author": {
+      "name": "Eris Koleszar",
+      "email": "me@eris.lol",
+      "url": "https://eris.lol"
+    }
+  }
